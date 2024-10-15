@@ -1,8 +1,4 @@
-import json
-from set_gcp_metadata_based_lables import SetMetadatabasedLabels 
-from datetime import datetime
-from flask import abort
-
+from set_gcp_metadata_based_labels import SetMetadatabasedLabels 
 
 def start_label_setter(request):
     try:
